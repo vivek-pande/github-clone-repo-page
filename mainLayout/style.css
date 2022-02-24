@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+.container1 {
+  width: 90vw;
+  display: flex;
+  gap: 50px;
+  margin-left: 7rem;
+}
+.location-img{
+  width: 12px;
+}
+.github-img{
+  width: 12px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  background-color: aliceblue;
+  border-radius: 50%;
+}
+
+
+.bio ul {
+  list-style: none;
+}
+.bio ul {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.link {
+  text-decoration: none;
+}
+
+.icon {
+  width: 15px;
+  fill: aliceblue;
+}
+.git {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  margin-left: 8rem;
+}
+.link span img{
+    width:1rem
+}
+
